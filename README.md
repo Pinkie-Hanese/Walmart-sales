@@ -43,7 +43,8 @@
   5. How does temperature affect weekly sales? Do higher or lower temperatures lead to increased sales?
 
 ### Data Analysis
-ADD SQL QUERIES HERE
+  2. Do sales significantly increase or decrease around holidays?
+     
 
 ### Results/Findings
 The results from this analysis are as follows:
