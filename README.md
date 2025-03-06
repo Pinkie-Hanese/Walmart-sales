@@ -39,8 +39,8 @@
   1. What are the highest and lowest sales weeks in the dataset? What might explain these trends?
   2. How do weekly sales fluctuate over time? Are there any noticeable trends?
   3. Do sales significantly increase or decrease around holidays?
-  4.Is there a seasonal pattern in Walmart's sales, such as higher sales in winter or summer?
-  5. How does temperature affect weekly sales? Do higher or lower temperatures lead to increased sales?
+  4. How does temperature affect weekly sales? Do higher or lower temperatures lead to increased sales?
+  5. 
 
 ### Data Analysis
   1. What is the highest sales week in the dataset? What might explain these trends?
@@ -57,6 +57,25 @@
        ```
   
    2. How do weekly sales fluctuate over time? Are there any noticeable trends?
+   3. htgvjbl
+   4. How does temperature affect weekly sales? Do higher or lower temperatures lead to increased sales?
+       ```sql
+           select
+           case
+           when temperature < 40 then 'cold' 
+           when temperature between 40 and 70 then 'moderate'
+           else 'hot'
+           end as temp_category,
+           avg(weekly_sales) as avg_sales, 
+           count(*) as num_weeks
+           from walmart_sales
+           group by temp_category
+           order by avg_sales desc;
+       ```
+
+      
+
+      
        
      
 
