@@ -100,16 +100,17 @@ The results from this analysis are as follows:
 ### Recommendations
 Based on the analysis, the following actions are recommended;
 1. Optimize inventory fr cld weather & holiday seasons.
-   - stock up on seasonal essentials (winter clthing, heaters, hot beverages etc)
+   - Stock up on seasonal essentials (winter clthing, heaters, hot beverages etc)
    - Ensure the availability of hig-demand holiday items (gifts, decorations,festive foods)
      
 2. Launch seasonal promotions & discounts
   - Offer holiday dicounts and winter sales promotions to attract more customers.
   - Bundle cold weather items together fpr upselling (winter essentials pack)
     
+    
 3. Enhance store operatins during peak periods.
-   -Extend store hurs during holidays and winter weends to capture nore foot traffic.
-   -Hire seasonal staff to handle increased demand.
+   - Extend store hurs  during holidays and winter weends to capture nore foot traffic.
+   - Hire seasonal staff to handle increased demand.
    - Ensure efficient restocking so shelves are always full. 
    
 
