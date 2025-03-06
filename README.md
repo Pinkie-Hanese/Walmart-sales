@@ -36,14 +36,28 @@
 ### Exploratory Data Analysis
 
   For EDA, the sales data was explored in order to answer the following questions:
-  1. How do weekly sales fluctuate over time? Are there any noticeable trends?
-  2. Do sales significantly increase or decrease around holidays?
-  3. What are the highest and lowest sales weeks in the dataset? What might explain these trends?
-  4. Is there a seasonal pattern in Walmart's sales, such as higher sales in winter or summer?
+  1. What are the highest and lowest sales weeks in the dataset? What might explain these trends?
+  2. How do weekly sales fluctuate over time? Are there any noticeable trends?
+  3. Do sales significantly increase or decrease around holidays?
+  4.Is there a seasonal pattern in Walmart's sales, such as higher sales in winter or summer?
   5. How does temperature affect weekly sales? Do higher or lower temperatures lead to increased sales?
 
 ### Data Analysis
-  2. Do sales significantly increase or decrease around holidays?
+  1. What is the highest sales week in the dataset? What might explain these trends?
+     ```sql
+     select date,weekly_sales,holiday_flag,Temperature from walmart_sales
+     order by weekly_sales desc
+     limit 1;
+     ```
+     - What is the lowest sales week in the data set?
+       ```sql
+        select date,weekly_sales,holiday_flag,Temperature from walmart_sales
+        order by weekly_sales asc
+        limit 1;
+       ```
+  
+   2. How do weekly sales fluctuate over time? Are there any noticeable trends?
+       
      
 
 ### Results/Findings
