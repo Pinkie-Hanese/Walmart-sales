@@ -40,7 +40,7 @@
   2. How do weekly sales fluctuate over time? Are there any noticeable trends?
   3. Do sales significantly increase or decrease around holidays?
   4. How does temperature affect weekly sales? Do higher or lower temperatures lead to increased sales?
-  5. 
+     
 
 ### Data Analysis
   1. What is the highest sales week in the dataset? What might explain these trends?
@@ -57,7 +57,24 @@
        ```
   
    2. How do weekly sales fluctuate over time? Are there any noticeable trends?
-   3. htgvjbl
+      ```sql
+         select date, weekly_sales,
+         avg(weekly_sales) over (order by date rows between 4 preceding and current row) as moving_avg_5w,
+         holiday_flag
+         from walmart_sales
+         order by date and weekly_sales desc;
+      ```
+  
+   3. Do sales significantly increase or decrease around holidays?
+      ```sql
+      select holiday_flag,
+      avg(weekly_sales) as avg_sales,
+      count(*) as num_weeks
+      from walmart_sales
+      group by holiday_flag
+      order by avg_sales desc;
+      ```
+   
    4. How does temperature affect weekly sales? Do higher or lower temperatures lead to increased sales?
        ```sql
            select
@@ -74,21 +91,30 @@
        ```
 
       
-
-      
-       
-     
-
 ### Results/Findings
 The results from this analysis are as follows:
-
+- The highest and lowest weekly sales were determined.
+- Sales tend to increase around holidays.
+- Average sales is highest in cold weather, meanimg people might be shopping more for winter-related products.
 
 ### Recommendations
-Based on the analysis, the following actions are recommended
+Based on the analysis, the following actions are recommended;
+1. Optimize inventory fr cld weather & holiday seasons.
+   - stock up on seasonal essentials (winter clthing, heaters, hot beverages etc)
+   - Ensure the availability of hig-demand holiday items (gifts, decorations,festive foods)
+     
+2. Launch seasonal promotions & discounts
+  - Offer holiday dicounts and winter sales promotions to attract more customers.
+  - Bundle cold weather items together fpr upselling (winter essentials pack)
+    
+3. Enhance store operatins during peak periods.
+   -Extend store hurs during holidays and winter weends to capture nore foot traffic.
+   -Hire seasonal staff to handle increased demand.
+   - Ensure efficient restocking so shelves are always full. 
+   
 
-### Limitations
-
-### References
+     ### References
+     (https://kaggle.com)
 
 
 
