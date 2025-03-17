@@ -90,6 +90,9 @@
            order by avg_sales desc;
        ```
 
+### Data visualization
+
+
       
 ### Results/Findings
 The results from this analysis are as follows:
