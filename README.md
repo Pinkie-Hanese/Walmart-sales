@@ -99,7 +99,7 @@
 The results from this analysis are as follows:
 - The highest and lowest weekly sales were determined.
 - Sales tend to increase around holidays.
-- Average sales is highest in cold weather, meanimg people might be shopping more for winter-related products.
+- Average sales is highest in cold weather, meaning people might be shopping more for winter-related products.
 
 ### Recommendations
 Based on the analysis, the following actions are recommended;
