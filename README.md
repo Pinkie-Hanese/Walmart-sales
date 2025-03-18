@@ -4,7 +4,7 @@
 - [Introduction](intrduction)
 - [Project overview](#project-overview)
 - [Objectives](objectives)
-- [Data Sources](#data-sources)
+- [Data Set](#data-set)
 - [Tools](#tools)
 - [Data Cleaning & Preparation](#data-cleaning-&-preparation)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
@@ -28,9 +28,12 @@ This project analyzes historical sales data from Walmart to uncover patterns and
 - Examine how temperature fluctuations correlate with sales performance
 - Provide data-driven recommendations to optimize business strategies
 
-### Data Sources
+### Data set
 
- Sales Data: The data set used for this analysis "Walmart_sales.csv" file which contains detailed information about the sales made by the store.
+- Source: (https://kagglewalmartsales.com)
+- Content:
+   - Weekly sales data across various walmart stores and departments
+   - External factors such as temperature,fuel prices,CPI and holiday indicators
 
 ### Tools
 - Microsoft Exel- Cleaning data [download here](https://microsoft.com)
