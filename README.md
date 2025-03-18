@@ -1,7 +1,9 @@
 # Walmart Sales Analysis
 
 ## Table of Contents
+- [Introduction](intrduction)
 - [Project overview](#project-overview)
+- [Objectives](objectives)
 - [Data Sources](#data-sources)
 - [Tools](#tools)
 - [Data Cleaning & Preparation](#data-cleaning-&-preparation)
@@ -12,10 +14,19 @@
 - [Recommendations](#recommendations)
 - [References](#references)
 
+## Introduction
+
+This data analysis project aims to provide in-depth insights on the Walmart sales. Through an analysis of various aspects of this data, we seek to identify Walmart's sales trends to understand how external factors like temperature and holidays impact revenue. The insights are intended to inform strategic decisisons such as promotional planning and inventory management.
+
 ## Project Overview
 
- This data analysis project aims to provide in-depth insights on the Walmart sales. Through an analysis of various aspects of this data, we seek to identify trends across different 
- temperatures, Holidays, and weeks. 
+This project analyzes historical sales data from Walmart to uncover patterns and trends that influence weekly sales performance. The primary focus is to determine whether extenal factors -such as holidays andd temperature variations significantly affect sales. Based on these insights, actionable recommendations are provided to help Walmart make informed business decisions, particularly in sales forecasting, marketing and inventory management.
+
+## Objectives
+- Analyze weekly sales trends over time
+- Evaluate the impact of hlidays on sales
+- Examine how temperature fluctuations correlate with sales performance
+- Provide data-driven recommendations to optimize business strategies
 
 ### Data Sources
 
@@ -107,9 +118,9 @@ The results from this analysis are as follows:
 
 ### Recommendations
 Based on the analysis, the following actions are recommended;
-1. Optimize inventory fr cld weather & holiday seasons.
+1. Optimize inventory for cold weather & holiday seasons.
    - Stock up on seasonal essentials (winter clthing, heaters, hot beverages etc)
-   - Ensure the availability of hig-demand holiday items (gifts, decorations,festive foods)
+   - Ensure the availability of high-demand holiday items (gifts, decorations,festive foods)
      
 2. Launch seasonal promotions & discounts
   - Offer holiday dicounts and winter sales promotions to attract more customers.
