@@ -1,12 +1,12 @@
 # Walmart Sales Analysis
 
 ## Table of Contents
-- [Introduction](intrduction)
+- [Introduction](#introduction)
 - [Project overview](#project-overview)
 - [Objectives](objectives)
 - [Data Set](#data-set)
 - [Tools](#tools)
-- [Data Cleaning & Preparation](#data-cleaning-&-preparation)
+- [Project Workflow](#project-workflow)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data Analysis](#data-analysis)
 - [Data Visualization](#data-visualization)
@@ -23,30 +23,42 @@ This data analysis project aims to provide in-depth insights on the Walmart sale
 This project analyzes historical sales data from Walmart to uncover patterns and trends that influence weekly sales performance. The primary focus is to determine whether extenal factors -such as holidays andd temperature variations significantly affect sales. Based on these insights, actionable recommendations are provided to help Walmart make informed business decisions, particularly in sales forecasting, marketing and inventory management.
 
 ## Objectives
-- Analyze weekly sales trends over time
-- Evaluate the impact of hlidays on sales
-- Examine how temperature fluctuations correlate with sales performance
-- Provide data-driven recommendations to optimize business strategies
+- Analyze weekly sales trends over time.
+- Evaluate the impact of hlidays on sales.
+- Examine how temperature fluctuations correlate with sales performance.
+- Provide data-driven recommendations to optimize business strategies.
 
 ### Data set
 
 - Source: (https://kagglewalmartsales.com)
 - Content:
-   - Weekly sales data across various walmart stores and departments
-   - External factors such as temperature,fuel prices,CPI and holiday indicators
+   - Weekly sales data across various walmart stores and departments.
+   - External factors such as temperature,fuel prices,CPI and holiday indicators.
 
 ### Tools
 - Microsoft Exel- Cleaning data [download here](https://microsoft.com)
 - SQL server- Data Analysis [download here](https://mySQL.com)
 - Tableau - Data Visualization [download here](https://tableau.com)
 
-### Data Cleaning & Preparation
+### Project Workflow
+1. Data cleaning & Preparation
+   - Data examination
+   - Handled missing values
+   - Standardized clumn names and data types
+   - Removing duplicates
+   - Handling missing values
+   - Fixing errors
+     
+2.  Exploratory Data Analysis(EDA)
+    - Sales performancee acroos different weeks and stores.
+    - Impact analysis of holidays and seasonal factors.
+     
+3. Analysis & Insights
+   - Identified significant sales increases during major holidays.
+   - Observed higher average sales in clder weeks.
 
- The following tasks were performed in the initial data preparation phase;
-  1. Data examination
-  2. Removing duplicates
-  3. Handling missing values
-  4. Fixing errors
+4. Visualization & Storytelling
+   - Created Tableau dashboard to represent trends. (https://public.tableau.com/app/profile/pinkie.hanese/viz/WalmartSalesTablaeau/Dashboard1?publish=yes) 
 
 ### Exploratory Data Analysis
 
