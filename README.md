@@ -117,7 +117,7 @@ Based on the analysis, the following actions are recommended;
     
     
 3. Enhance store operatins during peak periods.
-   - Extend store hurs  during holidays and winter weends to capture nore foot traffic.
+   - Extend store hours  during holidays and winter weends to capture nore foot traffic.
    - Hire seasonal staff to handle increased demand.
    - Ensure efficient restocking so shelves are always full. 
    
